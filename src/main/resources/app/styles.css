@@ -1,0 +1,122 @@
+.root {
+    -fx-font-family: "Malgun Gothic", "Segoe UI", sans-serif;
+    -fx-background-color: #f5f7fb;
+}
+
+.page-title {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111827;
+}
+
+.page-subtitle {
+    -fx-font-size: 13px;
+    -fx-text-fill: #6b7280;
+}
+
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 16px;
+    -fx-border-radius: 16px;
+    -fx-border-color: #e5e7eb;
+    -fx-padding: 18px;
+}
+
+.section-title {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111827;
+}
+
+.path-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #4b5563;
+}
+
+.info-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #6b7280;
+}
+
+.button {
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-padding: 10px 16px;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.primary-button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+}
+
+.primary-button:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+.secondary-button {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #1f2937;
+    -fx-border-color: #d1d5db;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #f9fafb;
+}
+
+.danger-button {
+    -fx-background-color: #dc2626;
+    -fx-text-fill: white;
+}
+
+.danger-button:hover {
+    -fx-background-color: #b91c1c;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #e5e7eb;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+    -fx-padding: 4px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #f3f4f6;
+    -fx-background-radius: 10px 10px 0 0;
+}
+
+.table-view .column-header,
+.table-view .filler {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent #e5e7eb transparent;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #374151;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #f3f4f6 transparent;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #dbeafe;
+}
+
+.status-bar {
+    -fx-background-color: #eef2ff;
+    -fx-background-radius: 10px;
+    -fx-padding: 10px 14px;
+}
+
+.status-label {
+    -fx-text-fill: #3730a3;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
